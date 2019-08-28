@@ -1,0 +1,36 @@
+{
+    "type":"MCU",
+    "name":"CH543",
+    "title": "WCH CH543 MCU",
+    "description":"WCH USB-PD MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"MCS-51",
+        "Fmax":48,
+        "DMIPS": 48,
+        "CoreMark": 48
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage":"http://www.wch.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH543.git"
+    },
+    "version":"1.0.0",
+    "series":["CH543P","CH543T","CH543E","CH543G"],
+    "package":["QFN20","ESSOP10","TSSOP20","SOP16"],
+    "peripheral": ["USB","ADC","UART","SPI","IIC"],
+    "temp": [-40,125],
+    "volt": [2.5,12],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "MCS-51",
+        "WCH",
+        "USB","PD","ADC","I2C","USB","SPI","UART"
+    ]
+}
